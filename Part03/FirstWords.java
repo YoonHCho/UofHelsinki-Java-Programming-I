@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LineByLine {
+public class FirstWords {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -11,9 +11,7 @@ public class LineByLine {
             }
 
             String[] array = input.split(" ");
-            for (String el : array) {
-                System.out.println(el);
-            }
+            System.out.println(array[0]);
         }
     }
 }
